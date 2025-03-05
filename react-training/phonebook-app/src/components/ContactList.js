@@ -1,39 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
-const initailContacts = [
-  {
-    id: 1,
-    name: "Vinod",
-    email: "vinod@vinod.co",
-    city: "Bangalore",
-    avatar: "https://avatars.githubusercontent.com/u/109946821?v=4",
-  },
-  { id: 2, name: "John", email: "john@xmpl.com", city: "Dallas", avatar: null },
-  {
-    id: 3,
-    name: "Jane",
-    email: "jane@xmpl.com",
-    city: "New York",
-    avatar: "",
-  },
-  {
-    id: 4,
-    name: "Shyam",
-    email: "shyam@xmpl.com",
-    city: "Shivamogga",
-    avatar: null,
-  },
-];
-
-const ContactList = () => {
-  const [contacts, setContacts] = useState(initailContacts);
-
-  const deleteContact = (id) => {
-    if (!window.confirm("Are you sure?")) return;
-
-    const remainingContacts = contacts.filter((c) => c.id !== id);
-    setContacts(remainingContacts);
-  };
+const ContactList = ({ contacts, deleteContact }) => {
 
   const contactsJsx = contacts.map((c) => (
     <tr className="contactRow" key={c.id}>
@@ -60,7 +27,8 @@ const ContactList = () => {
   ));
 
   return (
-    <div>
+    <div className="mt-3">
+      <h3>Contact List</h3>
       <table className="table">
         <thead>
           <tr>
