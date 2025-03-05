@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 
 const ContactForm = ({ addContact }) => {
   const [contact, setContact] = useState({
@@ -7,25 +7,30 @@ const ContactForm = ({ addContact }) => {
     phone: "",
     city: "",
   });
+  const nameRef = useRef();
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setContact((prevContact) => ({
-      ...prevContact,
-      [name]: value,
-    }));
+  // const changeHandler = (e) => {
+  //   let { name, value } = e.target;
+  //   setContact({ ...contact, [name]: value });
+  // };
+
+  const changeHandler = ({ target: { name, value } }) => {
+    setContact({ ...contact, [name]: value });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
     addContact(contact);
-    // Clear form after submission
+    // clear the content of the form elements
     setContact({
       name: "",
       email: "",
       phone: "",
       city: "",
     });
+    // focus on the name field
+    nameRef.current.focus();
   };
 
   return (
@@ -37,13 +42,14 @@ const ContactForm = ({ addContact }) => {
             Name
           </label>
           <input
+            ref={nameRef}
             autoFocus
             type="text"
             className="form-control"
             id="name"
             name="name"
             value={contact.name}
-            onChange={handleChange}
+            onChange={changeHandler}
             required
           />
         </div>
@@ -57,7 +63,7 @@ const ContactForm = ({ addContact }) => {
             id="email"
             name="email"
             value={contact.email}
-            onChange={handleChange}
+            onChange={changeHandler}
             required
           />
         </div>
@@ -71,7 +77,7 @@ const ContactForm = ({ addContact }) => {
             id="phone"
             name="phone"
             value={contact.phone}
-            onChange={handleChange}
+            onChange={changeHandler}
             required
           />
         </div>
@@ -85,7 +91,7 @@ const ContactForm = ({ addContact }) => {
             id="city"
             name="city"
             value={contact.city}
-            onChange={handleChange}
+            onChange={changeHandler}
           />
         </div>
         <button type="submit" className="btn btn-primary">
@@ -96,4 +102,4 @@ const ContactForm = ({ addContact }) => {
   );
 };
 
-export default ContactForm; 
+export default ContactForm;

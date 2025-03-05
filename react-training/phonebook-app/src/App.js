@@ -55,10 +55,10 @@ function App() {
         }}
       >
         <div className="row">
-          <div className="col-md-5">
+          <div className="col-md-6 col-sm-4 col-xs-12">
             <ContactForm addContact={addContact} />
           </div>
-          <div className="col-md-7">
+          <div className="col-md-6 col-sm-8 col-xs-12">
             <ContactList contacts={contacts} deleteContact={deleteContact} />
           </div>
         </div>
