@@ -33,7 +33,8 @@ function App() {
   ]);
 
   const addContact = (newContact) => {
-    const newId = 1 + Math.max(...contacts.map((c) => c.id));
+    const newId =
+      contacts.length === 0 ? 1 : 1 + Math.max(...contacts.map((c) => c.id));
     newContact.id = newId;
     newContact.avatar = `https://avatar.iran.liara.run/public/${newId}`;
     setContacts([...contacts, newContact]);
