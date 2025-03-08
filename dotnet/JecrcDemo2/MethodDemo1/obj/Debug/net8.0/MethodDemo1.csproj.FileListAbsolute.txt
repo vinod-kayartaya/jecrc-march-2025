@@ -1,0 +1,15 @@
+C:\Users\vinod\OneDrive\Desktop\trainings\dotnet\JecrcDemo2\MethodDemo1\bin\Debug\net8.0\MethodDemo1.exe
+C:\Users\vinod\OneDrive\Desktop\trainings\dotnet\JecrcDemo2\MethodDemo1\bin\Debug\net8.0\MethodDemo1.deps.json
+C:\Users\vinod\OneDrive\Desktop\trainings\dotnet\JecrcDemo2\MethodDemo1\bin\Debug\net8.0\MethodDemo1.runtimeconfig.json
+C:\Users\vinod\OneDrive\Desktop\trainings\dotnet\JecrcDemo2\MethodDemo1\bin\Debug\net8.0\MethodDemo1.dll
+C:\Users\vinod\OneDrive\Desktop\trainings\dotnet\JecrcDemo2\MethodDemo1\bin\Debug\net8.0\MethodDemo1.pdb
+C:\Users\vinod\OneDrive\Desktop\trainings\dotnet\JecrcDemo2\MethodDemo1\obj\Debug\net8.0\MethodDemo1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinod\OneDrive\Desktop\trainings\dotnet\JecrcDemo2\MethodDemo1\obj\Debug\net8.0\MethodDemo1.AssemblyInfoInputs.cache
+C:\Users\vinod\OneDrive\Desktop\trainings\dotnet\JecrcDemo2\MethodDemo1\obj\Debug\net8.0\MethodDemo1.AssemblyInfo.cs
+C:\Users\vinod\OneDrive\Desktop\trainings\dotnet\JecrcDemo2\MethodDemo1\obj\Debug\net8.0\MethodDemo1.csproj.CoreCompileInputs.cache
+C:\Users\vinod\OneDrive\Desktop\trainings\dotnet\JecrcDemo2\MethodDemo1\obj\Debug\net8.0\MethodDemo1.sourcelink.json
+C:\Users\vinod\OneDrive\Desktop\trainings\dotnet\JecrcDemo2\MethodDemo1\obj\Debug\net8.0\MethodDemo1.dll
+C:\Users\vinod\OneDrive\Desktop\trainings\dotnet\JecrcDemo2\MethodDemo1\obj\Debug\net8.0\refint\MethodDemo1.dll
+C:\Users\vinod\OneDrive\Desktop\trainings\dotnet\JecrcDemo2\MethodDemo1\obj\Debug\net8.0\MethodDemo1.pdb
+C:\Users\vinod\OneDrive\Desktop\trainings\dotnet\JecrcDemo2\MethodDemo1\obj\Debug\net8.0\MethodDemo1.genruntimeconfig.cache
+C:\Users\vinod\OneDrive\Desktop\trainings\dotnet\JecrcDemo2\MethodDemo1\obj\Debug\net8.0\ref\MethodDemo1.dll

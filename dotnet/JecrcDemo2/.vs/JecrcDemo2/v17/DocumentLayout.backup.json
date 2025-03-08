@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vinod\\OneDrive\\Desktop\\trainings\\dotnet\\JecrcDemo2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{026D9D9C-A9BF-486A-BD44-9BAEECFB9A28}|VirtualOverrideDemo\\VirtualOverrideDemo.csproj|c:\\users\\vinod\\onedrive\\desktop\\trainings\\dotnet\\jecrcdemo2\\virtualoverridedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{026D9D9C-A9BF-486A-BD44-9BAEECFB9A28}|VirtualOverrideDemo\\VirtualOverrideDemo.csproj|solutionrelative:virtualoverridedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AB627D-AB35-42D6-AF38-E0420362684F}|MethodDemo1\\MethodDemo1.csproj|c:\\users\\vinod\\onedrive\\desktop\\trainings\\dotnet\\jecrcdemo2\\methoddemo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6AB627D-AB35-42D6-AF38-E0420362684F}|MethodDemo1\\MethodDemo1.csproj|solutionrelative:methoddemo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6AB627D-AB35-42D6-AF38-E0420362684F}|MethodDemo1\\MethodDemo1.csproj|c:\\users\\vinod\\onedrive\\desktop\\trainings\\dotnet\\jecrcdemo2\\methoddemo1\\utils\\greet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6AB627D-AB35-42D6-AF38-E0420362684F}|MethodDemo1\\MethodDemo1.csproj|solutionrelative:methoddemo1\\utils\\greet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vinod\\OneDrive\\Desktop\\trainings\\dotnet\\JecrcDemo2\\VirtualOverrideDemo\\Program.cs",
+              "RelativeDocumentMoniker": "VirtualOverrideDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\vinod\\OneDrive\\Desktop\\trainings\\dotnet\\JecrcDemo2\\VirtualOverrideDemo\\Program.cs",
+              "RelativeToolTip": "VirtualOverrideDemo\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T12:17:18.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Greet.cs",
+              "DocumentMoniker": "C:\\Users\\vinod\\OneDrive\\Desktop\\trainings\\dotnet\\JecrcDemo2\\MethodDemo1\\Utils\\Greet.cs",
+              "RelativeDocumentMoniker": "MethodDemo1\\Utils\\Greet.cs",
+              "ToolTip": "C:\\Users\\vinod\\OneDrive\\Desktop\\trainings\\dotnet\\JecrcDemo2\\MethodDemo1\\Utils\\Greet.cs",
+              "RelativeToolTip": "MethodDemo1\\Utils\\Greet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T06:50:40.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vinod\\OneDrive\\Desktop\\trainings\\dotnet\\JecrcDemo2\\MethodDemo1\\Program.cs",
+              "RelativeDocumentMoniker": "MethodDemo1\\Program.cs",
+              "ToolTip": "C:\\Users\\vinod\\OneDrive\\Desktop\\trainings\\dotnet\\JecrcDemo2\\MethodDemo1\\Program.cs",
+              "RelativeToolTip": "MethodDemo1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T06:47:22.301Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
