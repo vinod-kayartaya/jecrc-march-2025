@@ -1,0 +1,33 @@
+POST /api/auth/login
+Host: localhost:5277
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "admin123"
+}
+
+###
+
+POST /api/products
+Host: localhost:5277
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwibmFtZWlkIjoiMSIsIm5iZiI6MTc0MTM5ODM1OSwiZXhwIjoxNzQyMDAzMTU5LCJpYXQiOjE3NDEzOTgzNTl9.c-aIF9DPFYx7tI-aYlGyHHV4JaEJf4fxK7uOcEpGqwk
+
+{
+    "name": "Basmati Rice",
+    "description": "Premium long-grain basmati rice from India",
+    "price": 99.99,
+    "units": "1 kg",
+    "picture": "https://example.com/rice.jpg",
+    "unitsInStock": 100
+}
+
+###
+
+GET /api/products
+Host: localhost:5277
+Accept: application/json
+###
+
+

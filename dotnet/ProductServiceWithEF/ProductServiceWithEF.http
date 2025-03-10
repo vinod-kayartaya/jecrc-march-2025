@@ -1,0 +1,6 @@
+@ProductServiceWithEF_HostAddress = http://localhost:5027
+
+GET {{ProductServiceWithEF_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
