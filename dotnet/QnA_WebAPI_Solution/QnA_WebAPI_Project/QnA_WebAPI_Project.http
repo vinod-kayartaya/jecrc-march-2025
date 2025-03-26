@@ -1,0 +1,6 @@
+@QnA_WebAPI_Project_HostAddress = http://localhost:5225
+
+GET {{QnA_WebAPI_Project_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
