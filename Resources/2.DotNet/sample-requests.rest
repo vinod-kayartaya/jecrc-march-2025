@@ -1,0 +1,13 @@
+https://localhost:7239/api/employees
+
+###
+
+POST /api/employees
+Host: localhost:5006
+Content-Type: application/json
+
+{
+    "name": "Ramesh",
+    "salary": 35000,
+    "department": "SALES"
+}
