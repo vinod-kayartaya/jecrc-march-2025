@@ -1,4 +1,4 @@
-# Training for JECRC (Jaipur) Students for CapGemini
+# Training JECRC (Jaipur) Students for CapGemini
 
 Date: 4th March 2025 to 26th March 2025
 
